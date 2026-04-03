@@ -1,4 +1,4 @@
-# 🌹 BloomBar — Rose Backend API
+# BloomBar Rose Backend API
 
 API REST pour la gestion d'une boutique de vente de bouquets de fleurs.  
 Développée avec **Spring Boot 3.5** · **Java 17** · **MySQL** · Architecture en couches (Controller / Service / Repository / DTO / Mapper).
@@ -175,13 +175,13 @@ curl -X POST "http://localhost:8080/api/commande?userId=1" \
 
 ## Roadmap DevOps *(en cours)*
 
-- [ ] 🐳 Dockerisation — `Dockerfile` + `docker-compose.yml`
-- [ ] ⚙️ Pipeline CI/CD — GitHub Actions (build → test → image Docker)
-- [ ] ☸️ Déploiement Kubernetes — `deployment.yaml` + `service.yaml`
-- [ ] ☁️ Déploiement Cloud — AWS EC2 / ECS
+- [ok]  Dockerisation: `Dockerfile` + `docker-compose.yml`
+- [ok]  Pipeline CI/CD: GitHub Actions et jenkins (build → test → image Docker)
+- [ ]  Déploiement Kubernetes/openshift: `deployment.yaml` + `service.yaml`
+- [ ]  Déploiement Cloud: AWS EC2 / ECS
 
 ---
 
 ## Auteur
 
-Projet développé dans le cadre du cursus **Licence 3 GLSI** — ESP / UCAD Dakar.
+Projet développé dans le cadre du cursus **Licence 3 GLSI** ESP / UCAD Dakar.
